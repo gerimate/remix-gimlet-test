@@ -12,6 +12,6 @@ RUN npm run build # will build remix app
 
 ENV NODE_ENV=production
 
-EXPOSE 3000
+EXPOSE 8000
 
 CMD ["npm", “run” ,"start"]
